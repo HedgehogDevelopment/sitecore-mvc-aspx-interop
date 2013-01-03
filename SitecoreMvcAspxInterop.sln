@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HedgehogDevelopment.SitecoreMvcAspxInterop", "SitecoreMvcAspxInterop\HedgehogDevelopment.SitecoreMvcAspxInterop.csproj", "{461CC7C7-4A37-40F3-AA83-E9A5986851C7}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "SitecoreMvcAspxInterop.Deploy", "SitecoreMvcAspxInterop.Deploy\SitecoreMvcAspxInterop.Deploy.scproj", "{91172B1B-7DFC-4531-AFE9-430236AA02E1}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.hhogdev.com/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SitecoreMvcAspxInterop\\HedgehogDevelopment.SitecoreMvcAspxInterop.csproj
+		SccProjectName1 = SitecoreMvcAspxInterop
+		SccLocalPath1 = SitecoreMvcAspxInterop
+		SccProjectUniqueName2 = SitecoreMvcAspxInterop.Deploy\\SitecoreMvcAspxInterop.Deploy.scproj
+		SccProjectName2 = SitecoreMvcAspxInterop.Deploy
+		SccLocalPath2 = SitecoreMvcAspxInterop.Deploy
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{461CC7C7-4A37-40F3-AA83-E9A5986851C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{461CC7C7-4A37-40F3-AA83-E9A5986851C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{461CC7C7-4A37-40F3-AA83-E9A5986851C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{461CC7C7-4A37-40F3-AA83-E9A5986851C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91172B1B-7DFC-4531-AFE9-430236AA02E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91172B1B-7DFC-4531-AFE9-430236AA02E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91172B1B-7DFC-4531-AFE9-430236AA02E1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{91172B1B-7DFC-4531-AFE9-430236AA02E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91172B1B-7DFC-4531-AFE9-430236AA02E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91172B1B-7DFC-4531-AFE9-430236AA02E1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
