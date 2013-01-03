@@ -168,3 +168,6 @@ pip-log.txt
 IconCache
 T4RenderCache
 BuiltFiles_*.txt
+
+# Sitecore DLLs
+Lib/*.dll

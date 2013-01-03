@@ -1,18 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Web;
-using System.Web.UI;
-using Sitecore.Layouts;
-using System.Xml.Linq;
-using System.Xml.XPath;
-using System.Web.Routing;
-using Sitecore.Mvc.Configuration;
-using Sitecore.Mvc.Presentation;
-using Sitecore.Mvc.Common;
 using System.Web.Mvc;
-using Sitecore.Mvc.Pipelines.Response.RenderRendering;
+using System.Web.Routing;
+using System.Web.UI;
+using Sitecore.Mvc.Common;
 using Sitecore.Mvc.Pipelines;
+using Sitecore.Mvc.Pipelines.Response.RenderRendering;
+using Sitecore.Mvc.Presentation;
 using Sitecore.Web.UI;
 
 namespace HedgehogDevelopment.SitecoreMvcAspxInterop.Controls

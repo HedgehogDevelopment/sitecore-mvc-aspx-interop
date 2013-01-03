@@ -27,7 +27,7 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
-    <OutputPath>.\Debug\</OutputPath>
+    <OutputPath>.\bin\Debug\</OutputPath>
     <RecursiveDeployAction>SitecoreRecycle</RecursiveDeployAction>
     <SitecoreDeployFolder>
     </SitecoreDeployFolder>
@@ -39,14 +39,14 @@
     <PackagePublisher>Hedgehog Development</PackagePublisher>
     <PackageVersion>1.0</PackageVersion>
     <PackageReadme>Allows MVC renderings in Sitecore to work in an ASPX master page.</PackageReadme>
-    <SitecoreAssemblyPath>..\..\..\..\SitecoreComponents\6.6.0.120918</SitecoreAssemblyPath>
+    <SitecoreAssemblyPath>.\..\Lib</SitecoreAssemblyPath>
     <GeneratePackage>True</GeneratePackage>
     <SeperateFilesAndItems>False</SeperateFilesAndItems>
     <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <DebugSymbols>false</DebugSymbols>
-    <OutputPath>.\Release\</OutputPath>
+    <OutputPath>.\bin\Release\</OutputPath>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
     <PackageAuthor>Charles Turano</PackageAuthor>
     <PackagePublisher>Hedgehog Development</PackagePublisher>
@@ -56,6 +56,13 @@
     <GeneratePackage>True</GeneratePackage>
     <SeperateFilesAndItems>False</SeperateFilesAndItems>
     <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
+    <SitecoreDeployFolder>
+    </SitecoreDeployFolder>
+    <SitecoreWebUrl>
+    </SitecoreWebUrl>
+    <SitecoreAccessGuid>
+    </SitecoreAccessGuid>
+    <InstallSitecoreConnector>False</InstallSitecoreConnector>
   </PropertyGroup>
   <ItemGroup>
     <AssemblyAttributes Include="AssemblyFileVersion">
